@@ -22,5 +22,32 @@
 <img src="Jacob_feeds-fish-300x400.jpg" width="150px">
 <p style="color: silver; background-color: black;">My name is Jacob. I love Trains.</p>
 <img src="train_on_turn-table-400x300.jpg" width="200px">
-  </body>
+
+  <h1>Days Since My Birthday</h1>
+    <p id="daysSinceBirthday"></p>
+
+ <script>
+        
+        const birthday = new Date("2016-08-02");
+        const today = new Date();
+
+        // Calculate the time difference in milliseconds.
+        const timeDifference = today - birthday;
+
+        // Calculate the number of days by dividing milliseconds by milliseconds in a day.
+        const daysSinceBirthday = Math.floor(timeDifference / (1000 * 60 * 60 * 24)) % 365;
+
+        // Display the result on the page.
+        const daysSinceBirthdayElement = document.getElementById("daysSinceBirthday");
+        daysSinceBirthdayElement.textContent = `It has been ${daysSinceBirthday} days since my last birthday.`;
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+
 </html>
