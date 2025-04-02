@@ -1,0 +1,21 @@
+body {
+    background: #0088f6;
+  }
+  p {
+    color:#cbffdf;
+  }
+  h1 {
+    font-weight: bold;
+    color:#6FB26D;
+    font-family: monospace;
+    font-size: 35px
+  }
+  h2 {
+    color:#6FB26D;
+    font-family: monospace;
+    font-size: 25px;
+  }
+  h4 {
+    color:#FFFFFF;
+    font-family: sans-serif
+  }
